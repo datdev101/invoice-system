@@ -5,15 +5,15 @@
     "build": "tsc",
     "start": "node dist/main.js",
     "start:dev": "ts-node src/main.ts",
-    "test": "tsx --test './test/app.test.ts'"
+    "test": "tsx --test './**/*.test.ts'"
   },
   "author": "datdevs101",
   "license": "ISC",
   "description": "A simple invoice management system built with TypeScript",
   "devDependencies": {
-    "@types/node": "^22.13.4",
+    "@types/node": "^24.10.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.7.3",
-    "tsx": "^4.16.2"
+    "tsx": "^4.21.0",
+    "typescript": "^5.9.3"
   }
 }
