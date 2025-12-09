@@ -21,4 +21,10 @@ interface Invoice {
   status: InvoiceStatus;
 }
 
-export { Invoice, InvoiceItem };
+interface InvoiceTotals {
+  subtotal: number;
+  tax: number;
+  total: number;
+}
+
+export { Invoice, InvoiceItem, InvoiceTotals };

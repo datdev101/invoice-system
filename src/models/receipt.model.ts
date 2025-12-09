@@ -1,5 +1,7 @@
 interface ReceiptItem {
   id: string;
+  description: string;
+  amount: number;
 }
 
 interface Receipt {

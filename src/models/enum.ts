@@ -1,6 +1,7 @@
 enum InvoiceStatus {
   PENDING = "pending",
   PAID = "paid",
+  OVERPAID = "overpaid",
 }
 
 enum PaymentMethod {

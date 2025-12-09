@@ -1,4 +1,5 @@
 import { PaymentMethod, PaymentStatus } from "./enum";
+import { Invoice } from "./invoice.model";
 
 interface Payment {
   id: string;
@@ -10,4 +11,9 @@ interface Payment {
   status: PaymentStatus;
 }
 
-export { Payment };
+interface PaymentResult {
+  payment: Payment;
+  updatedInvoice: Invoice;
+}
+
+export { Payment, PaymentResult };
